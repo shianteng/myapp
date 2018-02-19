@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.9'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
