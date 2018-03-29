@@ -7,12 +7,16 @@ gem 'rails', '4.2.9'
 gem 'pg', '~> 0.15'
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass'
+gem 'loofah', '~> 2.2.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
+# Use pdf generation
+gem 'rfpdf'
+gem "rbpdf", "~> 1.19.3"
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
